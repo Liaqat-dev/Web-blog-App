@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem; /* h-16 */
+    background-color: #3b82f6; /* bg-blue-500 */
+    padding: 5px 10px;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f3e4e4;
+    padding: 0;
+    text-align: center;
+    margin: 1rem 0;
+}
+.input{
+    outline: none;
+    border: none;
+    color: #3b82f6;
+    background-color: azure;
+    height: 2rem;
+    border-radius: 30px;
+    padding: 5px 12px;
+    margin-left: 15px;
+
+}
+.search{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.searchIcon{
+    position: absolute;
+    right: 10px;
+    color: #3b82f6;
+}
